@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
+.body{
+  /* background-image: url(https://content.instructables.com/ORIG/F58/58OU/HKM940QN/F5858OUHKM940QN.jpg?auto=webp&frame=1&crop=3:2&width=600&height=1024&fit=bounds&md=902f9b8ce536786e9b3d04fba6c2cfbf); */
+  text-align: center;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.odo{
+display: flex;
+width: 100px;
+height: 50px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-bottom: 20px;
+
+
 }
